@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://chw7ig8p46mps"]
+
+[ext_resource type="Script" uid="uid://cug7hbekyfo6k" path="res://addons/primitive_shapes/circle.gd" id="1_g53xr"]
+[ext_resource type="Script" uid="uid://bp35nydfqhkvr" path="res://addons/primitive_shapes/rectangle.gd" id="2_np8lt"]
+[ext_resource type="Script" uid="uid://bjwp3fi83n4qp" path="res://addons/primitive_shapes/triangle.gd" id="3_np8lt"]
+
+[node name="All" type="Node2D"]
+
+[node name="Circle" type="Node2D" parent="."]
+position = Vector2(76, 71)
+script = ExtResource("1_g53xr")
+color = Color(0.2235294, 0.52156866, 0.3372549, 1)
+metadata/_custom_type_script = "uid://cug7hbekyfo6k"
+
+[node name="Rectangle" type="Node2D" parent="."]
+position = Vector2(209, 74)
+script = ExtResource("2_np8lt")
+color = Color(1, 0.2117647, 1, 1)
+metadata/_custom_type_script = "uid://bp35nydfqhkvr"
+
+[node name="Triangle" type="Node2D" parent="."]
+position = Vector2(350, 84)
+script = ExtResource("3_np8lt")
+metadata/_custom_type_script = "uid://bjwp3fi83n4qp"
