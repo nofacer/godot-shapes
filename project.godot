@@ -11,5 +11,10 @@ config_version=5
 [application]
 
 config/name="godot-shapes"
+run/main_scene="uid://chw7ig8p46mps"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/primitive_shapes/plugin.cfg")
